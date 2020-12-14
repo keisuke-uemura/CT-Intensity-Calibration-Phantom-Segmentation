@@ -1,0 +1,12 @@
+Intended use
+This software is available for only non-commercial use in research or educational purpose. 
+Without permission from the Imaging-based Computational Biomedicine Lab, commercial use of these codes/models are prohibited even after copying, editing, or processing any operations. 
+Please contact us for commercial use or if you are uncertain about the decision.
+
+How to cite
+When using this software, please cite https://github.com/keisuke-uemura/Phantom_segmentation.git
+
+
+Warranty
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
