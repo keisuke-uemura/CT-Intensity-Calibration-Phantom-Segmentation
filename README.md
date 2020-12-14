@@ -12,16 +12,17 @@ The segmentation model was built from convolutional neural network using a Bayes
 
 For details, please see [requirements.txt](requirements.txt)
 
-# Usage: Inference Code for Phantom Segmetation using Bayesian U-net.
+# Usage
+ Inference Code for Phantom Segmetation using Bayesian U-net.
 
  Inputs:
-  '-i' or '--in_dir': Directory including MHD images (default: data)
-  '-o' or '--out_dir': Directory to save segmentation results (default: results)
-  '-u', '--uncert_ok': Flag to save the uncertainty or not (default: False)  
+ -  '-i' or '--in_dir': Directory including MHD images (default: data)
+ -  '-o' or '--out_dir': Directory to save segmentation results (default: results)
+ -  '-u', '--uncert_ok': Flag to save the uncertainty or not (default: False)  
  Examples:
-  python phentom_segmentation.py -i "./data" -o"./labels" -u
-  python phentom_segmentation.py --in_dir "./data" --out_dir"./labels" --uncert_ok
-  python phentom_segmentation.py --in_dir "./data" --out_dir"./labels"
+ -  python phentom_segmentation.py -i "./data" -o"./labels" -u
+ - python phentom_segmentation.py --in_dir "./data" --out_dir"./labels" --uncert_ok
+ -  python phentom_segmentation.py --in_dir "./data" --out_dir"./labels"
 
 # Licence
 This software can be used for research purpose or for educational purpose.
