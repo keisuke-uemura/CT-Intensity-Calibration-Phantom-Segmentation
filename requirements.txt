@@ -1,0 +1,11 @@
+# This file may be used to create an environment using:
+# $ conda create --name keras --file requirements.txt python==3.5.4
+# platform: win-64
+graphviz=2.38
+keras=2.2.3
+pydot=1.4.1
+python-graphviz=0.14.2
+scipy=1.4.1
+tensorflow=1.15.0
+tqdm=4.52.0
+medpy
