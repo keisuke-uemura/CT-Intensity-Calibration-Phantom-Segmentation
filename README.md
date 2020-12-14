@@ -16,9 +16,9 @@ For details, please see [requirements.txt](requirements.txt)
  Inference Code for Phantom Segmetation using Bayesian U-net.
 
  Inputs:
- -  '-i' or '--in_dir': Directory including MHD images (default: data)
- -  '-o' or '--out_dir': Directory to save segmentation results (default: results)
- -  '-u', '--uncert_ok': Flag to save the uncertainty or not (default: False)  
+ -  '-i' or '--in_dir' : Directory including MHD images (default: data)
+ -  '-o' or '--out_dir' : Directory to save segmentation results (default: results)
+ -  '-u', '--uncert_ok' : Flag to save the uncertainty or not (default: False)  
 
  Examples:
  -  python phantom_segmentation.py -i "./data" -o "./labels" -u
