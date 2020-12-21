@@ -23,6 +23,7 @@ MC_ITERATIONS = 10
 #GPU allocation
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID" 
 K.clear_session()
+
 def set_session(seed, gpu):
     assert gpu >= 0, "Enter number of GPUs"
 
@@ -85,8 +86,8 @@ def main(in_dir, out_dir, uncert_ok):
                             N_CLASS=N_CLASS,
                             MC_ITERATIONS=MC_ITERATIONS)
 
-    #Test on some data
-    image_files = glob.glob(os.path.join(in_dir, 'k*.mhd'))
+    # Test on some data
+    image_files = glob.glob(os.path.join(in_dir, '*.mhd'))
     for image_file in image_files:
         print('Processing %s \n' % image_file)
         # Test data
@@ -100,11 +101,11 @@ def main(in_dir, out_dir, uncert_ok):
         label, uncert = segment(image, predictor)
         # Save segmentation
         out_file = os.path.join(out_dir, os.path.basename(image_file)).replace('.mhd', '_label.mhd')
-        label = np.transpose(label, (1,2,0))
+        label = np.transpose(label, (2,1,0))
         medpy.io.save(label, out_file,  header, use_compression=True)
 
         if uncert_ok:
-            uncert = np.transpose(uncert, (1,2,0))
+            uncert = np.transpose(uncert, (2,1,0))
             uncert_file = out_file.replace('label', 'uncert')
             medpy.io.save(uncert, uncert_file, header, use_compression=True)
 
@@ -118,7 +119,7 @@ if __name__ == '__main__':
         '-i' or '--in_dir': Directory including MHD images (default: data)
         '-o' or '--out_dir': Directory to save segmentation results (default: results)
         '-u', '--uncert_ok': Flag to save the uncertainty or not (default: False)
-    Examples:
+    EXAMPLES:
         python phantom_segmentation.py -i "./data" -o "./labels" -u
         python phantom_segmentation.py --in_dir "./data" --out_dir "./labels" --uncert_ok
         python phantom_segmentation.py --in_dir "./data" --out_dir "./labels"
