@@ -13,9 +13,8 @@ The segmentation model was built from convolutional neural network using a Bayes
 For details, please see [requirements.txt](requirements.txt)
 
 # Reference
-- Preprint of the paper using this model can be found at (arXiv:2012.11151). 
-When using this model, please cite 
-- Title: 'Automated segmentation of an intensity calibration phantom in clinical CT images using a convolutional neural network`
+Preprint of the paper using this model can be found at (arXiv:2012.11151). <br>When using this model, please cite 
+- Title: 'Automated segmentation of an intensity calibration phantom in clinical CT images using a convolutional neural network'
 - Authors: Keisuke Uemura, Yoshito Otake, Masaki Takao, Mazen Soufi, Akihiro Kawasaki, Nobuhiko Sugano, Yoshinobu Sato 
 
 
