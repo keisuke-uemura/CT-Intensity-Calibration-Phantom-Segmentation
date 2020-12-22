@@ -4,7 +4,7 @@ Without permission from the Imaging-based Computational Biomedicine Lab, commerc
 Please contact us for commercial use or if you are uncertain about the decision.
 
 How to cite
-When using this software, please cite https://github.com/keisuke-uemura/Phantom_segmentation.git
+When using this software, please cite https://github.com/keisuke-uemura/Phantom_segmentation.git and http://arxiv.org/abs/2012.11151
 
 
 Warranty
