@@ -13,7 +13,7 @@ The segmentation model was built from convolutional neural network using a Bayes
 For details, please see [requirements.txt](requirements.txt)
 
 # Reference
-Preprint of the paper using this model can be found at (http://arxiv.org/abs/2012.11151). <br>Journal full paper can be found at (https://doi.org/10.1007/s11548-021-02345-w) <br>When using this model, please cite 
+Preprint of the paper using this model can be found at (http://arxiv.org/abs/2012.11151). <br>Journal full paper can be found at (https://doi.org/10.1007/s11548-021-02345-w) <br><br>When using this model, please cite 
 - Uemura, K., Otake, Y., Takao, M. et al. Automated segmentation of an intensity calibration phantom in clinical CT images using a convolutional neural network. Int J CARS (2021). https://doi.org/10.1007/s11548-021-02345-w
 
 
